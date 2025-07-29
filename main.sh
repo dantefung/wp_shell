@@ -70,6 +70,7 @@ case $result in
 		echo "=== 启动Docker服务 ==="
         systemctl start docker.service
         systemctl enable docker
+        mkdir html
         docker-compose -f docker-compose.yml up -d
 		
 		# ========================================
