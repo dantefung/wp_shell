@@ -1,7 +1,7 @@
 # wp_shell
 wordpress一键安装脚本
 ```
-wget -N https://raw.githubusercontent.com/CollapseEdge/wp_shell/main/main.sh && bash main.sh
+wget -N https://raw.githubusercontent.com/dantefung/wp_shell/ver-nginx/main.sh && bash main.sh
 ```
 ## 引言
 受够了无良的宝塔面板，无法忍受lnmp的龟速安装，快来试试wp_shell<br>
