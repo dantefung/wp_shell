@@ -52,7 +52,7 @@ case $result in
 		echo "=== 下载配置文件 ==="
 		wget https://raw.githubusercontent.com/dantefung/wp_shell/ver-nginx/docker-compose.yml
         wget https://raw.githubusercontent.com/dantefung/wp_shell/ver-nginx/upload.ini
-        wget https://raw.githubusercontent.com/dantefung/wp_shell/ver-nginx/wordpress.conf
+        wget https://raw.githubusercontent.com/dantefung/wp_shell/ver-nginx/nginx/wordpress.conf
         wget https://raw.githubusercontent.com/dantefung/wp_shell/ver-nginx/nginx_manager.sh
         wget https://raw.githubusercontent.com/dantefung/wp_shell/ver-nginx/recreate_compose.sh
 		
