@@ -7,15 +7,19 @@ graph TD
     D -->|连接| E[MySQL 容器]
 
     %% WordPress volume mapping
-    D --> F["/opt/www/你的站点名/html<br>映射 /var/www/html"]
+    D --> F["/opt/www/站点名/html<br>映射 /var/www/html"]
 
     %% MySQL volume mapping
-    E --> G["/var/lib/docker/volumes/执行compose目录站点名_db_data/_data<br>映射 /var/lib/mysql"]
+    E --> G["/var/lib/docker/volumes/站点名_db_data/_data<br>映射 /var/lib/mysql"]
+
+    %% 备份目录
+    H["📦 备份目录<br>/opt/www/ahhfs/backup"]
 
     subgraph 宿主机服务器
         C
         F
         G
+        H
         subgraph Docker 网络
             D
             E
