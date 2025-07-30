@@ -13,7 +13,7 @@ graph TD
     E --> G["/var/lib/docker/volumes/站点名_db_data/_data<br>映射 /var/lib/mysql"]
 
     %% 备份目录
-    H["📦 备份目录<br>/opt/www/ahhfs/backup"]
+    H["📦 备份目录<br>/opt/www/站点名/backup"]
 
     subgraph 宿主机服务器
         C
